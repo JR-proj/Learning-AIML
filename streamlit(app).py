@@ -1,7 +1,7 @@
 import streamlit as st
 import time as t
 #to create an image
-st.image("https://images.app.goo.gl/U43NUtgAzQ3gzZgr6")
+#st.image("C:\Users\Acer\Desktop\coloring book/bird.png")
 
 #title - used to add the title of an app
 st.title("Streamlit App")
@@ -62,7 +62,7 @@ st.color_picker("Choose a color")
 st.progress(50)
 #spinner shows temporary waiting message
 with st.spinner("In progress"):
-    t.sleep(2)
+    t.sleep(20)
     st.success("Done")
  #balloons display balloons for celebration
 st.balloons()
